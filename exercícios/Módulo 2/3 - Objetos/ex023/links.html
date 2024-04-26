@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active {
+            color: yellow;
+        }
+        
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <a href="https://www.instagram.com/iiigormuniz/" target="_blank">
+        <li>Instagram: @iiigormuniz</li>
+    </a>
+    <a href="https://twitter.com/igoigoigomuniz" target="_blank">
+        <li>Twitter: @igoigoigomuniz</li>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=100079540552553" target="_blank">
+        <li>Facebook: Igor Araújo</li>
+    </a>
+</body>
+</html>
